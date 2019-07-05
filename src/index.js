@@ -4,7 +4,6 @@ const through2 = require("through2");
 const crypto = require("crypto");
 const _ = require("lodash");
 const path = require("path");
-const gutil = require("gulp-util");
 
 function spriteSmash(options) {
   const renames = [];
